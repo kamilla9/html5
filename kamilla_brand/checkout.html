@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Brand</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js" ></script>
+	</head>
+	<body>
+		<div class="container">
+			<header >
+				<div class="header-brand">
+					<div class="logo">
+						<a href="#"><img src="img/logo.png" alt="brand-logo"></a>
+					</div>
+					<div class="brand">
+						<a href="#">Bran<span>d</span> </a>
+					</div>
+					<form class="form-search" action="/search/" target="_blank">
+						<input type="hidden" name="searchid" value="808327">
+						<select name="Browse" class="browse">
+							<option >
+								Browse
+							</option>
+						</select>
+						<input type="search"  autocapitalize=words  name="text" required placeholder="Search for Item...">
+						<input type="image" src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png"/>  <!-- вместо кнопки submit -->
+					</form>
+					<div class="purchase"><a href="#"><img src="img/purchase.png" alt="purchase"></a></div>
+					<div class="account"><a href="#"> My Account</a></div>
+				</div>
+				<nav class="menu">
+					<a href="#">home</a>
+					<a href="#">man</a>
+					<a href="#">women</a>
+					<a href="#">kids</a>
+					<a href="#">accoseriese</a>
+					<a href="#">featured</a>
+					<a href="#">hot deals</a>
+				</nav>
+				<div class="arrivals-bg">
+					<div class="new-arrivals"><h1>new arrivals</h1></div>
+					<nav aria-label="breadcrumb">
+						<div class="breadcrumb">
+							<a href="#">Home / </a></li>
+							<a href="#">men / </a></li>
+							<a href="#" style="color: #f16d7f;">new arrivals</a></li>
+						</div>
+					</nav>
+				</div>
+			</header>
+			<main>
+				<section>
+					<article>
+						<a href="#" class="shipping-adress"><h3>01. Shipping Adress</h3></a>
+						<script type="text/javascript" >
+						$(document).ready(function(){
+						$(".shipping-adress").click(function(){
+						$("#panel").slideToggle("slow");
+						$(this).toggleClass("active"); return false;
+						});
+						});
+						</script>
+						<div id="panel">
+							<div class="register">
+								<h6>Check as a guest or register
+								</h6>
+								<p class="grey-registered">Register with us for future convenience
+								</p>
+								<p class="input"><input type="radio" name="pol"><span>checkout as guest</span></p>
+								<p class="input"><input type="radio" name="pol"><span>register</span></p>
+								<h6>register and save time!</h6>
+								<div class="grey-registered">Register with us for future convenience</div>
+								<div><img src="img/arrow.png" alt="arrow"><a href="#" class="grey-registered">Fast and easy checkout</a></div>
+								<div><img src="img/arrow.png" alt="arrow"><a href="#" class="grey-registered">Easy access to your order history and status</a></div>
+								<div class="shipping-adress-button"><a href="#">continue</a></div>
+							</div>
+							<div class="log-in">
+								<h6>Already registed ?</h6>
+								<p class="grey-registered">Please log in below</p>
+								<p class="input-2">EMAIL ADDRESS <sup>*</sup></p>
+								<input type="text" name="email"><br>
+								<p class="input-2">PASSWORD <sup>*</sup></p>
+								<input type="password"><br>
+								<p class="red-text"><a href="#">* Required Fileds</a></p>
+								<div class="shipping-adress-button"><a href="#">Log in</a></div>
+								<span><a href="#">Forgot Password ?</a></span>
+							</div>
+						</div>
+					</article><hr>
+					<article>
+						<a href="#">
+							<h3>02.   BILLING INFORMATION</h3>
+						</a>
+					</article><hr>
+					<article>
+						<a href="#">
+							<h3>03.   SHIPPING INFORMATION</h3>
+						</a>
+					</article><hr>
+					<article>
+						<a href="#">
+							<h3>04.   SHIPPING METHOD</h3>
+						</a>
+					</article><hr>
+					<article>
+						<a href="#">
+							<h3>05.   PAYMENT METHOD</h3>
+						</a>
+					</article><hr>
+					<article>
+						<a href="#">
+							<h3>06.   ORDER REVIEW</h3>
+						</a>
+					</article><hr>
+					
+				</section>
+				<section>
+					<article>
+						<img src="img/face.png" alt="women-face" class="face">
+						<div class="text-left">
+							“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+							a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”<br><br>
+							<span class="red">Bin Burhan</span><br>
+							Dhaka, Bd
+						</div>
+						<div class="text-right">
+							<p>Subscribe</p>
+							<span>FOR OUR NEWLETTER AND PROMOTION</span><br>
+							<form action="#">
+								<input type="text" name="email" placeholder="Enter Your Email">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+					</article>
+				</section>
+				<section>
+					<article>
+						<div class="logo">
+							<a href="#"><img src="img/logo.png" alt="brand-logo"></a>
+						</div>
+						<div class="brand">
+							<a href="#">Bran<span>d</span> </a>
+						</div>
+						<p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+						</p>
+					</article>
+					<article>
+						<div class="company">
+							COMPANY
+						</div>
+						<p>
+							<a href="#">Home</a><br>
+							<a href="#">Shop</a><br>
+							<a href="#">About</a><br>
+							<a href="#">How It Works</a><br>
+							<a href="#">Contacts</a><br>
+						</p>
+					</article>
+					<article>
+						<div class="information">
+							INFORMATION
+						</div>
+						<p>
+							<a href="#">Tearms & Condition</a><br>
+							<a href="#">Privacy Policy</a><br>
+							<a href="#">How to Buy</a><br>
+							<a href="#">How to Sell</a><br>
+							<a href="#">Promotion</a><br>
+						</p>
+					</article>
+					<article>
+						<div class="shop-category">
+							SHOP CATEGORY
+						</div>
+						<p>
+							<a href="#">Men</a><br>
+							<a href="#">Women</a><br>
+							<a href="#">Child</a><br>
+							<a href="#">Apparel</a><br>
+							<a href="#">Brows All</a><br>
+						</p>
+					</article>
+				</section>
+			</main>
+			<footer>
+				<div class="copyright">© 2017  Brand  All Rights Reserved.</div>
+				<div class="contacts">
+					<a href="#"><img src="img/facebook.jpg" alt="facebook"></a>
+					<a href="#"><img src="img/googl+.jpg" alt="googl+"></a>
+					<a href="#"><img src="img/pinterest.jpg" alt="pinterest"></a>
+					<a href="#"><img src="img/twitter.jpg" alt="twitter"></a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
